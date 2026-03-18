@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Contact Paris VTC Service – Book your fixed fare Paris VTC online. Airport transfers, family VTC Paris, executive rides. Available 24/7 by phone, WhatsApp or email.">
+  <title>Contact Us – Book Your Paris VTC | 24/7 Private Transfer Booking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="nlm"><img src="logo.png" alt="Paris VTC logo"></div>
+      <span class="nlt">Paris<span>VTC</span></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="rates.html">Our Rates</a></li>
+      <li><a href="fleet.html">Our Fleets</a></li>
+      <li><a href="contact.html" class="active nav-book">Contact Us</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-glow"></div>
+  <div class="page-hero-content">
+    <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>Contact Us</span></div>
+    <div class="eyebrow">Get In Touch</div>
+    <h1>Book Your <em>Paris VTC</em> Now</h1>
+    <p class="lead">Fill in the form and we'll confirm your booking within 15 minutes. Or call us — we're available 24/7.</p>
+  </div>
+</div>
+
+<div class="contact-section">
+  <div class="container">
+    <div class="cgrid">
+      <!-- LEFT: info -->
+      <div class="cl reveal">
+        <p>Ready to travel? Whether it's a last-minute airport pickup, a planned family VTC Paris trip to Disneyland, or a regular business transfer — our team responds fast and confirms your ride quickly.</p>
+        <div class="ccards">
+          <div class="cc">
+            <div class="cc-dot"></div>
+            <div class="cct"><h4>Phone / WhatsApp</h4><p>+33 6 XX XX XX XX</p></div>
+          </div>
+          <div class="cc">
+            <div class="cc-dot"></div>
+            <div class="cct"><h4>Email</h4><p>booking@paris-VTC-service.fr</p></div>
+          </div>
+          <div class="cc">
+            <div class="cc-dot"></div>
+            <div class="cct"><h4>Service Area</h4><p>Paris &amp; Île-de-France Region</p></div>
+          </div>
+          <div class="cc">
+            <div class="cc-dot"></div>
+            <div class="cct"><h4>Availability</h4><p>24 hours a day, 7 days a week</p></div>
+          </div>
+        </div>
+        <div class="mapbl">
+          <div class="map-text-title">Paris, France</div>
+          <div class="map-text-sub">Full coverage across all Paris arrondissements,<br>CDG · Orly · Beauvais · Disneyland · Versailles</div>
+          <div class="maplbl">Full Coverage Zone</div>
+        </div>
+      </div>
+
+      <!-- RIGHT: form -->
+      <div class="cfc reveal" style="transition-delay:.2s">
+        <p class="ftitle">Request a <span>Booking</span></p>
+        <form id="bookingForm" novalidate>
+          <div class="frow">
+            <div class="fg"><label for="fname">Full Name</label><input type="text" id="fname" placeholder="Jean Dupont" required></div>
+            <div class="fg"><label for="femail">Email Address</label><input type="email" id="femail" placeholder="you@example.com" required></div>
+            <div class="fg"><label for="fphone">Phone / WhatsApp</label><input type="tel" id="fphone" placeholder="+33 6 XX XX XX XX" required></div>
+            <div class="fg">
+              <label for="fveh">Vehicle Class</label>
+              <select id="fveh">
+                <option value="">Select vehicle...</option>
+                <option>Standard Sedan (1–3 pax)</option>
+                <option>Family Van (4–7 pax)</option>
+                <option>Premium Executive SUV</option>
+                <option>Accessible Minivan</option>
+              </select>
+            </div>
+            <div class="fg full"><label for="fpickup">Pickup Location</label><input type="text" id="fpickup" placeholder="e.g. CDG Airport Terminal 2E, Paris" required></div>
+            <div class="fg full"><label for="fdropoff">Drop-off Location</label><input type="text" id="fdropoff" placeholder="e.g. Hotel de Crillon, Place de la Concorde, 75008" required></div>
+            <div class="fg"><label for="fdate">Travel Date</label><input type="date" id="fdate" required></div>
+            <div class="fg"><label for="ftime">Travel Time</label><input type="time" id="ftime"></div>
+            <div class="fg full"><label for="fmsg">Additional Notes</label><textarea id="fmsg" placeholder="Flight number, luggage count, child seat request, special requirements..."></textarea></div>
+          </div>
+          <button type="submit" class="btn-p" style="width:100%;justify-content:center;font-size:.95rem;padding:1rem 2rem">Confirm My Booking</button>
+          <div class="smsg" id="successMsg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20,6 9,17 4,12"/></svg>
+            Booking received! We'll confirm within 15 minutes.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="fi">
+    <div class="ftop">
+      <div>
+        <a href="index.html" class="nav-logo" style="margin-bottom:1rem;display:inline-flex"><div class="nlm"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=80&q=80" alt="Paris VTC footer"></div><span class="nlt">Paris<span>VTC</span></span></a>
+        <p class="fbdesc">Paris's trusted private transportation service. Fixed fares, professional drivers, and 24/7 availability.</p>
+        <div class="fimgr">
+          <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=300&q=70" alt="Paris VTC sedan">
+          <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=300&q=70" alt="Family van VTC">
+          <img src="01.jpg" alt="Paris VTC driver">
+          <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=300&q=70" alt="Paris city">
+        </div>
+      </div>
+      <div class="fcol"><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="rates.html">Our Rates</a></li><li><a href="fleet.html">Our Fleets</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+      <div class="fcol"><h4>Services</h4><ul><li><a href="rates.html">CDG Airport Transfer</a></li><li><a href="rates.html">Orly Airport VTC</a></li><li><a href="rates.html">Family VTC Paris</a></li><li><a href="rates.html">Executive Transfers</a></li></ul></div>
+      <div class="fcol"><h4>Info</h4><ul><li><a href="tel:+33 (0)6 09 71 36 38">+33 6 XX XX XX XX</a></li><li><a href="mailto:Contact@groupbluevanparis.com">Contact@groupbluevanparis.com</a></li><li><a href="about.html">About Our Team</a></li></ul></div>
+    </div>
+    <div class="fbot"><span>© Copyright 2026 France Airport Taxi
+All Rights Reserved.
+Powered by WEBbuilders.LK</span><span>Paris, France</span></div>
+  </div>
+</footer>
+<script>
+  const nb=document.getElementById('navbar');
+  window.addEventListener('scroll',()=>nb.classList.toggle('scrolled',window.scrollY>20));
+  function toggleMenu(){document.getElementById('navLinks').classList.toggle('open')}
+  const obs=new IntersectionObserver(en=>{en.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})},{threshold:.1});
+  document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+  document.getElementById('bookingForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    const b=this.querySelector('button[type="submit"]');
+    b.textContent='Processing...';b.disabled=true;b.style.opacity='.7';
+    setTimeout(()=>{
+      document.getElementById('successMsg').classList.add('show');
+      b.textContent='Booking Confirmed!';b.style.opacity='1';
+      this.reset();
+    },1200);
+  });
+</script>
+</body>
+</html>
